@@ -1,0 +1,68 @@
+body {
+  background-color: #e4dace;
+}
+header {
+  text-align: center;
+  #title {
+    text-align: center;
+    color: black;
+    margin-top: 130pt;
+  }
+}
+section{
+    color: white;
+    background-color: #e4302f;
+    border-radius: 10px;
+    height: 240pt;
+    width: 500pt;
+    margin: auto;
+}
+section div{
+    margin-top: 30px;
+    text-align: center;
+    
+    #senha{
+        border-radius: 10px;
+        width: 200px;
+        
+    }
+   #cpf{
+    border-radius: 10px;
+    width: 190px;
+   }
+   #nome{
+    border-radius: 10px;
+    width: 440px;
+    margin-top: 40px;
+   }
+   #nascimento{
+    border-radius: 10px;
+    width: 130px;
+    
+   }
+   #email{
+    border-radius: 10px;
+    width: 400px;
+    
+   }
+
+   #confim_senha{
+    border-radius: 10px;
+    width: 200px;
+   }
+   #cadastrar{
+    background-color: #e4dace;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    margin-left: 400px;
+    
+   }
+   #cadastrar:hover {
+    background-color: #bab6ad;
+    transform: scale(1.05);
+  }
+}
+
+
+

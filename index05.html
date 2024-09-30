@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="coworking.ico"
+      type="image/x-icon"
+    />
+    <title>Atendimento ao Cliente</title>
+    <link rel="stylesheet" href="style_Coworking05.css" />
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <p>
+        <input type="text" placeholder="Pesquisa..." id="pes" />
+        <img src="lupa.png" alt="lupe" />
+        <input type="button" value="+XX XXX-XXX-XXXX" id="num" />
+        <button id="perfil"><a href="Login.html" id="perfil2"><strong>Perfil</strong></a></button>
+        <span id="copy"></span>
+      </p>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="home">Coworking</a></li>
+          <li><a href="index02.html" class="home">Espaço Reuniões</a></li>
+          <li><a href="index03.html" class="home">Escritório Virtual</a></li>
+          <li><a href="index04.html" class="home">Espaço para Eventos</a></li>
+          <li>
+            <a href="index05.html" class="home">Atendimento ao Cliente</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="coworking">
+      <div id="cowo">
+        <h1>Atendimento ao Cliente</h1>
+        <p>
+          Este espaço é reservado apenas para você, aqui trataremos de duvidas e
+          necessidades, <br />
+          espero que possamos lhe ajudar com que for necessario e saciar sua
+          duvida ou reclamação<br />
+          todas as criticas são bem-vindas, se algo te deixou insastifeito ou
+          algum problema ocorreu com o site<br />
+          fique a vontade para deixar seu comentario abaixo!!
+        </p>
+        <h2>Como podemos ajudar:</h2>
+        <p>
+          - Disponibilidade 24H para todos os serviços;<br />
+          - Reclamações\comentarios;<br />
+          - Serviços de acessibilidade;<br />
+          - Atendimento ao cliente 24H.
+        </p>
+
+        <input
+          type="button"
+          value="Clique Aqui para ser redirecionado para nossas redes sociais"
+          id="orgamento"
+          onmouseenter="entra()"
+          onmouseleave="sai()"
+        />
+
+        <p>Caso tenha problemas ligue: <strong>+XX XXX-XXX-XXXX</strong></p>
+        <img
+          src="Atendimento.jpg"
+          alt="Atendimento"
+          id="atend"
+        />
+        <h2>Deixe seu comentário</h2>
+        <textarea
+          id="comentario"
+          placeholder="Digite seu comentário aqui..."
+        ></textarea>
+        <br />
+        <button id="botao" onclick="enviarComentario()">Enviar</button>
+        <div id="mensagem" class="mensagem"></div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+    </section>
+    <footer></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

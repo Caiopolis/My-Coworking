@@ -1,0 +1,73 @@
+body {
+  background-color: #e4dace;
+  color: white;
+  font: bold 12pt bold;
+
+}
+header {
+  #title {
+    text-align: center;
+    color: black;
+    margin-top: 130pt;
+  }
+}
+
+section {
+  background-color: #e4302f;
+  border-radius: 10px;
+  height: 200pt;
+  width: 350pt;
+  margin: auto;
+}
+section div {
+  text-align: center;
+  margin: auto;
+
+  #senha {
+    width: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  #e-mail {
+    width: 245px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  #singup {
+    height: 25pt;
+    margin-top: 25px;
+    width: 150px;
+    border-radius: 10px;
+    color: black;
+    background-color: #e4dace;
+    cursor: pointer;
+  }
+  #singup:hover {
+    background-color: #bab6ad;
+    transform: scale(1.05);
+  }
+
+  #cadastro {
+    color: white;
+  }
+  #esqueceu-senha {
+    color: white;
+  }
+}
+ #esqueceusenha{
+ cursor: pointer;
+}
+footer{
+  text-align: center;
+  #detalhe{
+    color: black;
+    width: 110pt;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+
+
+}

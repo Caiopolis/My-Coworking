@@ -1,0 +1,128 @@
+body {
+  background-color: #e4dace;
+}
+section {
+  input#orgamento {
+    background-color: #e4302f;
+    width: 200pt;
+    border-radius: 20pt;
+    text-align: center;
+    height: 30pt;
+    color: white;
+    font: bold 12pt bold;
+    margin-top: 15pt;
+    cursor: pointer;
+  }
+  #orgamento:hover{
+    background-color: #91272B;
+    transform: scale(1.05);
+  }
+  h2 {
+    font: bold 17pt bold;
+    margin-top: 40pt;
+  }
+  p {
+    line-height: 1.8;
+  }
+  div img {
+    margin-left: 680pt;
+    margin-top: -700pt;
+  }
+  h1 {
+    font: bold 25pt bold;
+  }
+  margin-left: 50pt;
+  margin-top: 100px;
+  font: normal 12pt arial;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font: normal 14pt arial;
+  background-color: #e4302f;
+  height: 40pt;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  vertical-align: middle;
+  margin: 0 60px;
+}
+header {
+  align-items: center;
+
+  input#pes {
+    box-shadow: 5px 5px 10px 5px #bab6ad;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 300px;
+    font: normal 15px arial;
+  }
+  input#num {
+    color: #fff;
+    height: 30px;
+    vertical-align: middle;
+    width: 270px;
+    text-align: center;
+    margin-left: 1100px;
+    margin-top: -70px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #e4302f;
+    cursor: pointer;
+  }
+  #perfil:hover {
+    background-color: #91272B;
+    transform: scale(1.05);
+  }
+  #num:hover{
+    background-color: #91272B;
+    transform: scale(1.05);
+  }
+  .home:hover{
+    background-color: #91272B;
+    transform: scale(1.05);
+  }
+  #perfil {
+    color: white;
+    border-radius: 150px;
+    width: 70px;
+    height: 50pt;
+    vertical-align: middle;
+    margin-top: -70px;
+    margin-left: 40px;
+    background-color: #e4302f;
+    cursor: pointer;
+  #perfil2{
+    color: white;
+  }
+  }
+  img {
+    vertical-align: middle;
+    margin-top: 5pt;
+  }
+}
+
+#img01{
+  margin-top: -450pt;
+}
+#img03{
+  margin-top: -500pt;
+}
+#img02{
+  margin-left: 500pt;
+  margin-top: -400pt;
+}
+span#copy{
+  margin-left: -220pt;
+}

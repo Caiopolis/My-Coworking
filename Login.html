@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css" />
+    <script src="Login.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Login</h1>
+    </header>
+    <section>
+      <div>
+        <div>
+          <label for="E-mail">E-mail:</label>
+          <input type="email" class="login" id="e-mail" />
+        </div>
+        <div>
+          <label for="E-mail">Senha:</label>
+          <input type="password" class="login" id="senha" />
+        </div>
+        <div>
+          <button id="singup" onclick="sing_up()"><a href="index.html">Sing-up</a></button>
+        </div>
+        <div>
+          <p>
+            Se não tem uma conta, faça agora seu
+            <a href="Cadastro.html" id="cadastro">Cadastro!</a>
+          </p>
+          <p>
+            Esqueceu sua
+            <a href="" id="esqueceu-senha" onclick="esquece()">Senha?</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p id="detalhe">&copy; Coworking_Fatec</p>
+    </footer>
+  </body>
+</html>
